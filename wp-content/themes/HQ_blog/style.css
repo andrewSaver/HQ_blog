@@ -7,6 +7,475 @@ Description: Theme for The Hindquarter VT
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Tags: vermont, catering
 Text Domain: laurentianMedia
 */
+
+
+
+.header h1 {
+    font-family: 'Sancreek', cursive;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: rgb(80, 73, 73);
+    border-bottom: 2px solid black;
+}
+
+.index-subheader h5 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 200;
+    color: rgb(90, 85, 85);
+    border-top: 2px solid black;
+    padding: 1em;
+}
+
+#what_we_do_text,
+.menus_text,
+.process_text,
+.smoker_text {
+    padding: 3rem 12rem;
+}
+
+#what_we_do_text p,
+.menus_text p,
+.process_text p,
+.smoker_text p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5em;
+    font-weight: 400;
+    color: rgb(95, 93, 93);
+    padding: 1.5em;
+    margin-bottom: 0.5rem;
+}
+
+#what_we_do_text h3 {
+    font-weight: 400;
+    color: rgb(75, 73, 73)
+}
+
+.caption-text {
+    margin-top: 0em;
+}
+
+.footer-info {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.navigate-footer {
+    padding: .5rem 1rem;
+    margin: .5rem 0;
+    border-bottom: 2px solid black;
+}
+
+.footer-navs {
+    margin-bottom: 2em;
+}
+
+.footer-navs ul {
+    list-style: none;
+}
+
+.footer-navs ul li a {
+    color: rgb(107, 104, 104);
+}
+
+.footer-contact {
+    margin-bottom: 2em;
+}
+
+.contact-button {
+    margin: 2em 0 5em 0;
+}
+
+.phone-text {
+    color: rgb(107, 104, 104);
+}
+
+.contact-us-text {
+    padding: .5rem 1rem;
+    margin: .5rem 0;
+    border-bottom: 2px solid black;
+}
+
+.phone-text {
+    color: rgb(30, 31, 32)
+}
+
+.address-text {
+    margin-top: 2em;
+}
+
+.follow-us-footer {
+    padding: .5rem 1rem;
+    margin: .5rem 0;
+    border-bottom: 2px solid black;
+}
+
+.footer-social a .fa {
+    font-size: 1.6em;
+    border-radius: 50%;
+    border: solid rgb(46, 44, 44);
+    color: rgb(46, 44, 44);
+    line-height: 2em;
+    width: 2.1em;
+    height: 2.1em;
+    text-align: center;
+    display: inline-block;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    margin: 1.5em 1em;
+}
+
+.footer-nav-li {
+    padding: 0.5em;
+}
+
+.submit-button {
+    margin: 3em;
+}
+
+.process_banner {
+    background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/lightbox.images/menus/bliss-ridge-process-banner-1000x750.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 70vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: -2rem;
+    -webkit-animation: fadein 2s;
+    animation: fadein 2s;
+}
+
+.process_banner h1,
+.menus_banner h1,
+.smoker_banner h1 {
+    color: #ffffff;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 3rem;
+    font-weight: 300;
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
+}
+
+.process_banner_caption p {
+    font-size: 1rem;
+    color: rgb(73, 73, 73);
+}
+
+.process_banner_caption a {
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+}
+
+.menus_banner {
+    background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/menu.images/menus-banner-1024x400-new.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 70vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: -2rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-animation: fadein 2s;
+    animation: fadein 2s;
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.smoker-gallery {
+    padding-top: 3rem;
+}
+
+.menus_text p,
+.process_text p,
+.smoker_text p,
+#what_we_do_text p {
+    padding: 0.4rem;
+    font-size: 1.2rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+.menu-button {
+    margin-top: 2rem;
+}
+
+.menu-modal {
+    margin-bottom: 4rem;
+}
+
+.menu-modal button {
+    margin: 1.5em;
+}
+
+.index_top_contact_button {
+    margin-bottom: 4rem;
+}
+
+.menu_gallery {
+    margin-top: 4rem;
+}
+
+.smoker_banner {
+    background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/smoker.images/smoker-banner-1024x576.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 70vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: -2rem;
+    -webkit-animation: fadein 2s;
+    animation: fadein 2s;
+}
+
+.menus_banner,
+.process_banner,
+.smoker-gallery {
+    overflow-y: hidden;
+}
+
+.blog-pagination {
+    margin-bottom: 3rem;
+}
+
+.HQ_carousel {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.HQ_carousel.slick-initialized {
+    visibility: visible;
+    opacity: 1;
+}
+
+.HQ_carousel .your-item {
+    display: none;
+}
+
+.HQ_carousel .your-item:first-child {
+    display: block;
+    visibility: hidden;
+}
+
+.HQ_carousel.slick-initialized .your-item {
+    display: block;
+    visibility: visible !important;
+}
+
+.back-to-top {
+    background-color: rgb(170, 168, 168);
+    padding: .9em 1em 1em 1em;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    display: none;
+    opacity: 0.5;
+    z-index: 100;
+    bottom: 1em;
+    right: 1em;
+}
+
+.back-to-top:hover {
+    background-color: #000;
+}
+
+.back-to-top .fa-chevron-up {
+    font-size: 1.5em;
+    color: rgb(248, 242, 242);
+    text-align: center;
+}
+
+.email-box {
+    background-color: rgb(170, 168, 168);
+    padding: .9em 1em;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    right: 1em;
+    display: none;
+    opacity: 0.5;
+    z-index: 100;
+    bottom: 6em;
+    right: 1em;
+}
+
+.email-box .fa-envelope {
+    font-size: 1.5em;
+    color: rgb(248, 242, 242);
+}
+
+.email-box:hover {
+    background-color: #000;
+}
+
+#wait-for-load {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 100;
+}
+
+.modal-title {
+    font-family: 'Sancreek', cursive;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.menu-popup {
+    font-family: 'Balthazar', serif;
+    padding: 2rem 12rem;
+}
+
+.modal-break {
+    border-top: 3px solid black;
+    padding: 2rem 0;
+}
+
+.thank_you_text h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: rgb(80, 73, 73);
+}
+
+.thank_you_text p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(80, 73, 73);
+    padding: 1.5em;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+    .menus_text,
+    .menus_text p,
+    .process_text,
+    .process_text p,
+    .smoker_text,
+    .smoker_text p,
+    #what_we_do_text,
+    #what_we_do_text p {
+        padding: 1rem;
+    }
+    .lightbox {
+        pointer-events: none;
+    }
+    .menus_banner,
+    .process_banner,
+    .smoker_banner {
+        height: 45vh;
+    }
+    .header h1 {
+        font-size: 1.7em;
+    }
+    .email-box:hover,
+    .back-to-top:hover {
+        background-color: rgb(170, 168, 168);
+    }
+    .email-box:hover,
+    .back-to-top:hover {
+        background-color: rgb(170, 168, 168);
+    }
+    .menu-popup {
+        padding: 2rem 0;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .slick-prev:before,
+    .slick-next:before {
+        visibility: hidden;
+    }
+    .header h1 {
+        font-size: 1.7em;
+    }
+    .email-box:hover,
+    .back-to-top:hover {
+        background-color: rgb(170, 168, 168);
+    }
+    .menus_text,
+    .process_text,
+    .smoker_text,
+    #what_we_do_text {
+        padding: 1rem 3rem;
+    }
+    .menu-popup {
+        padding: 2rem 0.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .menus_banner,
+    .process_banner,
+    .smoker_banner {
+        height: 55vh;
+    }
+    .menus_text,
+    .process_text,
+    .smoker_text,
+    #what_we_do_text {
+        padding: 1rem 3rem;
+    }
+    .email-box:hover,
+    .back-to-top:hover {
+        background-color: rgb(170, 168, 168);
+    }
+    .menu-popup {
+        padding: 2rem 0.5rem;
+    }
+    .datepicker input[readonly] {
+        background-color: white;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1999px) {}

@@ -32,23 +32,12 @@
         rel="stylesheet"
     ></link>
 
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
-    ></link>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
-    <link
-        rel="stylesheet"
-        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous"
-    ></link>
-
-    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 </head>
 
 <body>
-    <div id="wait-for-load"></div>
 
     <div
         class="header container-fluid"
@@ -550,22 +539,6 @@
         crossorigin="anonymous"
     ></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
-
-    <script
-        type="text/javascript"
-        src="js/lightbox.js"
-    ></script>
-
-    <script
-        type="text/javascript"
-        script="script"
-        src="js/scripts.js"
-    ></script>
-
-    <script
-        type="text/javascript"
-        src="js/jquery.waypoints.min.js"
-    ></script>
+  
 </body>
 </html>
