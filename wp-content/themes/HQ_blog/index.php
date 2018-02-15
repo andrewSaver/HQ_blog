@@ -97,7 +97,7 @@
 
                         <a
                             class="dropdown-item"
-                            href="process.html"
+                            href="../process.html"
                         >Planning Process</a>
                     </div>
                 </li>
