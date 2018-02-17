@@ -1,52 +1,55 @@
+
+
 // Wait for page to load
 
-$(window).on('load', function () {
-    $('#wait-for-load').fadeOut(50);
-});
+    jQuery(window).on('load', function () {
+        jQuery('#wait-for-load').fadeOut(50);
+    });
 
-//Header link to index
+    //Header link to index
+window.onload = function () {
+    document.getElementById('header').onclick = function () {
+        window.location = 'https://andysaver.xyz/index.html';
+    };
+}    
 
-document.getElementById('header').onclick = function () {
-    window.location = 'index.html';
-};
+    //Caption fade-in animate.css
 
-//Caption fade-in animate.css
-
-$('figure-caption').addClass('animated fadeInUp');
-
-
-// Back-to-top function
+    jQuery('figure-caption').addClass('animated fadeInUp');
 
 
-    $(document).ready(function () {
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 1100) {
-                $('#back-to-top').fadeIn(200);
+    // Back-to-top function
+
+
+jQuery(document).ready(function () {
+    jQuery(window).scroll(function () {
+        if (jQuery(this).scrollTop() > 1100) {
+                jQuery('#back-to-top').fadeIn(200);
             } else {
-                $('#back-to-top').fadeOut(200);
+                jQuery('#back-to-top').fadeOut(200);
             }
         });
         // scroll body to 0px on click
-        $('#back-to-top').on('click touch', function () {
-            $('body,html').animate({
+        jQuery('#back-to-top').on('click touch', function () {
+            jQuery('body,html').animate({
                 scrollTop: 0
             }, 800);
             return false;
         });
         
-});
-    
-// Floating email UI
-
-$(document).ready(function () {
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 500) {
-            $('#email-box').fadeIn(200);
-        } else {
-            $('#email-box').fadeOut(200);
-        }
     });
-});
+    
+    // Floating email UI
+
+    jQuery(document).ready(function () {
+        jQuery(window).scroll(function () {
+            if (jQuery(this).scrollTop() > 500) {
+                jQuery('#email-box').fadeIn(200);
+            } else {
+                jQuery('#email-box').fadeOut(200);
+            }
+        });
+    });
 
 
 

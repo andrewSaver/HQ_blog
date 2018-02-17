@@ -238,7 +238,7 @@
 
     <a
         id="email-box"
-        href="contact.html"
+        href="https://andysaver.xyz/contact.html"
         class="email-box"
         role="button"
     >

@@ -7,33 +7,33 @@
                     <div class="row">
                         <ul class="col-6 text-center">
                             <li class="footer-nav-li">
-                                <a href="index.html">Home</a>
+                                <a href="https://andysaver.xyz/index.html">Home</a>
                             </li>
 
                             <li class="footer-nav-li">
-                                <a href="menus.html">Menus</a>
+                                <a href="https://andysaver.xyz/menus.html">Menus</a>
                             </li>
 
                             <li class="footer-nav-li">
-                                <a href="process.html">Process</a>
+                                <a href="https://andysaver.xyz/process.html">Process</a>
                             </li>
 
                             <li class="footer-nav-li">
-                                <a href="smoker.html">Smoker</a>
+                                <a href="https://andysaver.xyz/smoker.html">Smoker</a>
                             </li>
                         </ul>
 
                         <ul class="col-6 text-center">
                             <li class="footer-nav-li">
-                                <a href="sources.html">Venues</a>
+                                <a href="https://andysaver.xyz/sources.html">Venues</a>
                             </li>
 
                             <li class="footer-nav-li">
-                                <a href="testimonials.html">Testimonials</a>
+                                <a href="https://andysaver.xyz/testimonials.html">Testimonials</a>
                             </li>
 
-                            <li class="footer-nav-li">
-                                <a href="blog.html">Blog</a>
+                            <li class="footer-nav-li active">
+                                <a href="index.php">Blog</a>
                             </li>
                         </ul>
                     </div>
@@ -56,7 +56,7 @@
 
                         <div>
                             <a
-                                href="contact.html"
+                                href="https://andysaver.xyz/contact.html"
                                 class="btn btn-outline-dark contact-button"
                                 role="button"
                             >Contact</a>

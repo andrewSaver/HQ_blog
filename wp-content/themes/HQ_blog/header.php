@@ -70,123 +70,19 @@
             class="collapse navbar-collapse"
             id="navbarSupportedContent"
         >
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a
-                        href="index.html"
-                        class="nav-link"
-                    >Home</a>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a
-                        class="nav-link dropdown-toggle"
-                        href="#"
-                        id="navbarDropdown"
-                        role="button"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                    >Weddings & Events</a>
-
-                    <div
-                        class="dropdown-menu"
-                        aria-labelledby="navbarDropdown"
-                    >
-                        <a
-                            class="dropdown-item"
-                            href="menus.html"
-                        >Menus</a>
-
-                        <a
-                            class="dropdown-item"
-                            href="../process.html"
-                        >Planning Process</a>
-                    </div>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a
-                        class="nav-link dropdown-toggle"
-                        href="#"
-                        id="navbarDropdown"
-                        role="button"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                    >Barbeque</a>
-
-                    <div
-                        class="dropdown-menu"
-                        aria-labelledby="navbarDropdown"
-                    >
-                        <a
-                            class="dropdown-item"
-                            href="smoker.html"
-                        >Smoker</a>
-
-                        <a
-                            class="dropdown-item"
-                            href="process.html"
-                        >Planning Process</a>
-                    </div>
-                </li>
-
-                <li class="nav-item">
-                    <a
-                        href="sources.html"
-                        class="nav-link"
-                    >Sources & Venues</a>
-                </li>
-
-                <li class="nav-item">
-                    <a
-                        href="testimonials.html"
-                        class="nav-link"
-                    >Testimonials</a>
-                </li>
-
-                <li class="nav-item active">
-                    <a
-                        href="blog.html"
-                        class="nav-link"
-                    >
-                        Our Blog
-
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-            </ul>
-
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a
-                        href="contact.html"
-                        class="nav-link"
-                    >Contact Us</a>
-                </li>
-
-                <li class="nav-item">
-                    <a
-                        href="https://www.facebook.com/TheHindquarter/"
-                        class="nav-link"
-                    >
-                        <i class="fa fa-facebook"></i>
-                    </a>
-                </li>
-
-                <li class="nav-item">
-                    <a
-                        href="https://www.instagram.com/the_hindquarter/"
-                        class="nav-link"
-                    >
-                        <i
-                            class="fa fa-instagram"
-                            aria-hidden="true"
-                        ></i>
-                    </a>
-                </li>
-            </ul>
+        <?php
+            wp_nav_menu( array(
+                'menu'              => 'primary',
+                'theme_location'    => 'primary',
+                'depth'             => 2,
+                'container'         => 'div',
+                'container_class'   => 'collapse navbar-collapse',
+                'container_id'      => 'bs-example-navbar-collapse-1',
+                'menu_class'        => 'nav navbar-nav',
+                'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+                'walker'            => new WP_Bootstrap_Navwalker())
+            );
+        ?>
         </div>
     </nav>
 
