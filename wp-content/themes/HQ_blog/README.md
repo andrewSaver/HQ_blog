@@ -1,0 +1,1 @@
+This is a custom wordpress theme for thehindquartervt.com. To be used in a subdirectory for CMS purposes.
