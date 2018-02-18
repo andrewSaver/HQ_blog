@@ -1,16 +1,34 @@
 <?php
 // Theme setup
 
-add_action('after_setup_theme', 'hqbw_setup');
-    if ( ! function_exists('hqbw_setup')):
-        function hqbw_setup(){
-            register_nav_menu('primary', __('Primary navigation', 'hqbw'));
-        } endif;
+function hqbw_theme_setup(){
+    add_theme_support('post-thumbnails', array('post', 'custom-type'));
+    add_theme_support('post-formats', array('aside', 'gallery'));
+}
 
-        
+
+  add_action('after_setup_theme','hqbw_theme_setup');
 
 function my_scripts_method(){
-    wp_enqueue_script('jquery');
+    
+    wp_register_script(
+        'jquery',
+         get_template_directory_uri() . '/js/jquery-3.3.1.js'
+        );
+    wp_enqueue_script(
+        'jquery',
+        get_template_directory_uri() . '/js/jquery-3.3.1.js'
+    );
+    
+
+    wp_register_script(
+        'bootstrap',
+         get_template_directory_uri() . '/js/bootstrap.bundle.js'
+        );
+    wp_enqueue_script(
+        'bootstrap',
+        get_template_directory_uri() . '/js/bootstrap.bundle.js'
+    );
 
     wp_register_script(
         'jquery.waypoints.min',
@@ -38,19 +56,45 @@ function my_scripts_method(){
         'scripts',
         get_stylesheet_directory_uri() . '/js/scripts.js'
     );
-
     
 }
 
 function my_custom_styles(){
     wp_register_style('style', get_template_directory_uri() . '/style.css');
     wp_enqueue_style('style');
+
+    wp_register_style('bootstrap-css', get_template_directory_uri() . '/css/bootstrap.css');
+    wp_enqueue_style('bootstrap-css');
 }
 
 add_action('wp_enqueue_scripts', 'my_scripts_method', 'my_custom_styles');
 
-// Register custom navigation walker
-require_once('wp-bootstrap-navwalker.php');
 
 
 
+// Excerpt length control
+
+function set_excerpt_length(){
+    return 45;
+}
+
+add_filter('excerpt_length', 'set_excerpt_length');
+
+// Widget locations
+
+function hqbw_init_widgets($id){
+    register_sidebar(array(
+        'name' => 'Sidebar',
+        'id'   => 'Sidebar',
+        'before_widget' => '<div class="sidebar-module">',
+        'after_widget' => '</div>',
+        'before_title' => '<h4>',
+        'after_title' => '</h4>'
+    ));
+}
+
+add_action('widgets_init', 'hqbw_init_widgets');
+
+// Customizer File
+
+require get_template_directory(). '/inc/customizer.php';

@@ -18,7 +18,7 @@ Text Domain: laurentianMedia
     font-size: 2.5rem;
     font-weight: 100;
     color: rgb(80, 73, 73);
-    padding-top: 1rem;
+    margin-top: -0.8rem;
     margin-bottom: 0;
     border-bottom: 2px solid black;
     cursor: pointer;
@@ -397,6 +397,80 @@ Text Domain: laurentianMedia
     font-weight: 400;
     color: rgb(80, 73, 73);
     padding: 1.5em;
+}
+
+.post-thumb img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.comments {
+    border: 1px solid rgb(104, 92, 92);
+    padding: 1rem;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+.comments h3,
+.comments h2 {
+    background: #ffffff;
+    color: #333;
+    padding: 1rem;
+}
+
+.comment-body {
+    border: 1px solid rgb(104, 92, 92);
+    margin-bottom: 1rem;
+    padding: 3rem 1rem;
+}
+
+.comment-meta {
+    background: #ffffff;
+    color: #333;
+    padding: 2rem;
+    overflow: auto;
+}
+
+.comment-meta img {
+    float: left;
+    margin-right: 2rem;
+}
+
+.comment-reply-link {
+    background: #ffffff;
+    color: #333;
+    display: inline-block;
+    padding: 1rem 2rem;
+}
+
+.comment-form input,
+.comment-form textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid rgb(104, 92, 92);
+    margin-bottom: 2rem;
+}
+
+.comments li {
+    list-style: none;
+}
+
+.form-submit {
+    font-weight: 1000;
+}
+
+.submit {
+    background: #ece6e6;
+    cursor: pointer;
+}
+
+.post-aside .card {
+    margin-bottom: 3rem;
+}
+
+.post-gallery p a{
+    margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 320px) and (max-width: 479px) {
