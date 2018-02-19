@@ -17,11 +17,18 @@
                     <p><?php __('No Posts Found'); ?></p>
                 <?php endif; ?>
     
-
+               <?php if (function_exists("fellowtuts_wpbs_pagination"))
+                        {
+                            fellowtuts_wpbs_pagination();
+                        }
+                        ?> 
     
                 
             </div>
             <?php get_sidebar(); ?>
+
+             
+
 
     
 

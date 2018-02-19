@@ -473,6 +473,39 @@ Text Domain: laurentianMedia
     margin-bottom: 1rem;
 }
 
+.blog-post {
+    margin: 3rem 0;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid black;
+}
+
+.blog_post {
+    margin: 3rem 0;
+}
+
+hr {
+    margin-top: 3rem;
+    border: 0;
+    border-top: 2px solid black;
+}
+
+.blog-header {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid black;
+}
+
+.blog_sidebar {
+    margin-top: 1.5rem;
+}
+
+.blog-description {
+    font-weight: 400;
+}
+
+.pagination {
+    margin-top: 2rem;
+}
+
 @media screen and (min-width: 320px) and (max-width: 479px) {
     .menus_text,
     .menus_text p,
