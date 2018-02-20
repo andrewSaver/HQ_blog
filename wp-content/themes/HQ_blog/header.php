@@ -137,7 +137,7 @@
 
                 <li class="nav-item">
                     <a
-                        href="sources.html"
+                        href="https://andysaver.xyz/sources.html"
                         class="nav-link"
                     >Sources & Venues</a>
                 </li>
