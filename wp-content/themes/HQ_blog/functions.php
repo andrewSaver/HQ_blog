@@ -10,33 +10,14 @@ function hqbw_theme_setup(){
   add_action('after_setup_theme','hqbw_theme_setup');
 
 function my_scripts_method(){
-    
-
-    wp_register_script(
-        'popper',
-         get_template_directory_uri() . 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js'
-        );
-    wp_enqueue_script(
-        'popper',
-        get_template_directory_uri() . 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js'
-    );
-
-    wp_register_script(
-        'bootstrap',
-         get_stylesheet_directory_uri() . 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js', array('jquery'), null, true
-        );
-    wp_enqueue_script(
-        'bootstrap',
-        get_stylesheet_directory_uri() . 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js', array('jquery'), null, true
-    );
 
     wp_register_script(
         'scripts',
-         get_stylesheet_directory_uri() . '/js/scripts.js', array('jquery'), null, true
+         get_stylesheet_directory_uri() . '/js/scripts.js'
         );
     wp_enqueue_script(
         'scripts',
-        get_stylesheet_directory_uri() . '/js/scripts.js', array('jquery'), null, true
+        get_stylesheet_directory_uri() . '/js/scripts.js'
     );
     
 }
