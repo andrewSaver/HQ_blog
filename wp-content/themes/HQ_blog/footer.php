@@ -20,7 +20,6 @@
                             <li class="footer-nav-li">
                                 <a href="https://andysaver.xyz/process.html">Process</a>
                             </li>
-
                             <li class="footer-nav-li">
                                 <a href="https://andysaver.xyz/smoker.html">Smoker</a>
                             </li>
@@ -35,7 +34,7 @@
                                 <a href="https://andysaver.xyz/testimonials.html">Testimonials</a>
                             </li>
 
-                            <li class="footer-nav-li active">
+                            <li class="footer-nav-li">
                                 <a href="index.php">Blog</a>
                             </li>
                         </ul>
@@ -86,5 +85,6 @@
 
   <?php wp_footer(); ?>
 
+  
 </body>
 </html>
