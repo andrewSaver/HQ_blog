@@ -1,22 +1,11 @@
 
 
-// Wait for page to load
-
-    jQuery(window).on('load', function () {
-        jQuery('#wait-for-load').fadeOut(50);
-    });
-
     //Header link to index
 window.onload = function () {
     document.getElementById('header').onclick = function () {
-        window.location = 'https://andysaver.xyz/index.html';
+        window.location = 'https://thehindquartervt.com/index.html';
     };
 }    
-
-    //Caption fade-in animate.css
-
-    jQuery('figure-caption').addClass('animated fadeInUp');
-
 
     // Back-to-top function
 

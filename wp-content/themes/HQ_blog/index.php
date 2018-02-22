@@ -43,7 +43,7 @@
 
     <a
         id="email-box"
-        href="https://andysaver.xyz/contact.html"
+        href="https://thehindquartervt.com/contact.html"
         class="email-box"
         role="button"
     >

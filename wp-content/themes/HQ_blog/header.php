@@ -48,7 +48,7 @@
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
                     <a
-                        href="https://andysaver.xyz/index.html"
+                        href="https://thehindquartervt.com/index.html"
                         class="nav-link"
                     >
                         Home
@@ -74,12 +74,12 @@
                     >
                         <a
                             class="dropdown-item"
-                            href="https://andysaver.xyz/menus.html"
+                            href="https://thehindquartervt.com/menus.html"
                         >Menus</a>
 
                         <a
                             class="dropdown-item"
-                            href="https://andysaver.xyz/process.html"
+                            href="https://thehindquartervt.com/process.html"
                         >Planning Process</a>
                     </div>
                 </li>
@@ -101,26 +101,26 @@
                     >
                         <a
                             class="dropdown-item"
-                            href="https://andysaver.xyz/smoker.html"
+                            href="https://thehindquartervt.com/smoker.html"
                         >Smoker</a>
 
                         <a
                             class="dropdown-item"
-                            href="https://andysaver.xyz/process.html"
+                            href="https://thehindquartervt.com/process.html"
                         >Planning Process</a>
                     </div>
                 </li>
 
                 <li class="nav-item">
                     <a
-                        href="https://andysaver.xyz/sources.html"
+                        href="https://thehindquartervt.com/sources.html"
                         class="nav-link"
                     >Sources & Venues</a>
                 </li>
 
                 <li class="nav-item">
                     <a
-                        href="https://andysaver.xyz/testimonials.html"
+                        href="https://thehindquartervt.com/testimonials.html"
                         class="nav-link"
                     >Testimonials</a>
                 </li>
@@ -138,7 +138,7 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a
-                        href="https://andysaver.xyz/contact.html"
+                        href="https://thehindquartervt.com/contact.html"
                         class="nav-link"
                     >Contact Us</a>
                 </li>
